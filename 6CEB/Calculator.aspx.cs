@@ -42,7 +42,7 @@ namespace _6CEB
                         result = num1 * num2;
                         break;
                     case "Divide":
-                        if (num2 != 0)
+                        if (num2 != 0) 
                         {
                             result = num1 / num2;
                         }
