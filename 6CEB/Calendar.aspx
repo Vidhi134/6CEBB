@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="_6CEB.WebForm1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Calendar.aspx.cs" Inherits="_6CEB.Calendar" %>
 
 <!DOCTYPE html>
 
@@ -9,10 +9,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            Hello World!!
-CEB
-
-<br />
+            <asp:Calendar ID="Calendar1" runat="server"></asp:Calendar>
         </div>
     </form>
 </body>
