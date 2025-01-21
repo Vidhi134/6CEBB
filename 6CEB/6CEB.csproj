@@ -67,12 +67,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Adrotater.aspx" />
     <Content Include="Calculator.aspx" />
     <Content Include="Calendar.aspx" />
+    <Content Include="Database.aspx" />
+    <Content Include="Homepage.aspx" />
+    <Content Include="lec17-1.aspx" />
+    <Content Include="Screenshot 2024-12-19 185032.png" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
+    <Content Include="XMLFile1.xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adrotater.aspx.cs">
+      <DependentUpon>Adrotater.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Adrotater.aspx.designer.cs">
+      <DependentUpon>Adrotater.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Calculator.aspx.cs">
       <DependentUpon>Calculator.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -87,6 +100,34 @@
     <Compile Include="Calendar.aspx.designer.cs">
       <DependentUpon>Calendar.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Database.aspx.cs">
+      <DependentUpon>Database.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Database.aspx.designer.cs">
+      <DependentUpon>Database.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demo.Master.cs">
+      <DependentUpon>Demo.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Demo.Master.designer.cs">
+      <DependentUpon>Demo.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Homepage.aspx.cs">
+      <DependentUpon>Homepage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Homepage.aspx.designer.cs">
+      <DependentUpon>Homepage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="lec17-1.aspx.cs">
+      <DependentUpon>lec17-1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lec17-1.aspx.designer.cs">
+      <DependentUpon>lec17-1.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
@@ -97,6 +138,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Demo.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
